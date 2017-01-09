@@ -48,9 +48,9 @@ div.topmenu a:hover{
 }
 
 
-#infodecor {
+.infodecor {
     background-color: burlywood;
-    height: 150px;
+    text-align: center;
 }
 .banner {
     background-color: darkorange;
@@ -62,29 +62,7 @@ div.topmenu a:hover{
 #bannettime {
     width: 50%;
 }
-div.wrapper {
-    width: 100%;
-    height: 150px;
-    background-color: aqua;
-}
-.s1 {
-    background-color: green;
-    float: left;
-    width: 15%;
-    height: 100%;
-}
-.s2 {
-    background-color: deeppink;
-    width: 50%;
-    float: left;
-    height: 100%;
-}
-.s3 {
-    background-color: darkmagenta;
-    float: left;
-    width: 35%;
-    height: 100%;
-}
+
 div.gallery {
     background-color: yellow;
     height: 150px;
@@ -111,6 +89,7 @@ div.gallery {
 @media screen and (max-width: 999px) {
 	div.mid {min-width: 600px; }
     div.banner {min-width: 600px}
+    div.infodecor {min-width: 600px}
 
 }
 @media screen and (max-width: 60%){
