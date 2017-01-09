@@ -5,13 +5,13 @@ body {
 }
 /*Структура сайта*/
 div.mid {
-    width: 1000px; 
+    width: 80%; 
     margin: 0 auto;
     height: 150px;
 }
 div.header {
     background-color: aqua;
-
+    width: 100%;
 }
 main>div {
 
@@ -22,16 +22,20 @@ footer>div {
 }
 /*Шапка сайта*/
 .decorationplus {
-    height: 150px;
-}
-.order_now {
-    width: 100px;
+    height: auto;
+    float: left;
+    width: 50%;
+    position: relative;
+    
 }
 
+
 div.topmenu {
-    float: right;
-    height: 30px;
+    float: left;
     text-align: center;
+    position: relative;
+    width: 50%;
+    
 }
 div.topmenu  a{
     margin: 0 0 0 10px; color: #1683a3;
@@ -48,9 +52,15 @@ div.topmenu a:hover{
     background-color: burlywood;
     height: 150px;
 }
-#banner {
+.banner {
     background-color: darkorange;
-    height: 150px;
+    height: 150px; 
+}
+#bannertext {
+    text-align: center;
+}
+#bannettime {
+    width: 50%;
 }
 div.wrapper {
     width: 100%;
@@ -99,7 +109,10 @@ div.gallery {
 }
 /*Адаптивный дизайн*/
 @media screen and (max-width: 999px) {
-	div.mid {width: 95%; }
-	div.block,div.block:nth-of-type(even) {width: 75%;  float: left; }
+	div.mid {min-width: 600px; }
+    div.banner {min-width: 600px}
 
+}
+@media screen and (max-width: 60%){
+	div.header {text-align: center; 
 }
