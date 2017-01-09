@@ -1,5 +1,5 @@
 body {
-    background: #efefef url(images/frr.png); margin: 0;
+    background: #efefef; margin: 0;
     padding: 0;
     font: 16px/24px Arial, Tahoma, sans-serif; color:#272727;
 }
@@ -8,13 +8,15 @@ div.mid {
     width: 80%; 
     margin: 0 auto;
     height: 150px;
+    background-color: #efefef;
 }
 div.header {
-    background-color: aqua;
+    background-color: #efefef;
     width: 100%;
+    
 }
 main>div {
-
+background-color: #efefef;
 }
 footer>div {
     background-color: chartreuse;
@@ -38,22 +40,24 @@ div.topmenu {
     
 }
 div.topmenu  a{
-    margin: 0 0 0 10px; color: #1683a3;
+    margin: 0 0 0 10px; color: #2d2d2d;
     text-decoration: none;
 }
 div.topmenu a:hover{
-    color: #fff;
+    color: #afb1b5;
  /*Псевдокласс, цвет наводящего меню*/
 
 }
 
 
 .infodecor {
-    background-color: burlywood;
-    text-align: center;
+    background-color: #efefef;
+    text-align: left;
+    margin: auto;
 }
+
 .banner {
-    background-color: darkorange;
+    background-color: #efefef;
     height: 150px; 
 }
 #bannertext {
@@ -68,6 +72,18 @@ div>h2 {
     width: 1000px;
     text-align: center;
     margin: auto;
+}
+#about {
+    width: 1000px;
+    text-align: center;
+}
+#decor {
+    width: 1000px;
+    text-align: left;
+    margin: auto;
+
+    text-indent: 1.5em; /* Отступ первой строки */
+    text-align: justify; /* Выравнивание по ширине */
 }
 .WrapperTable {
     width: 100%;
