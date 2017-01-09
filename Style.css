@@ -71,16 +71,19 @@ div.topmenu a:hover{
 div>h2 {
     width: 1000px;
     text-align: center;
+
     margin: auto;
 }
 #about {
     width: 1000px;
     text-align: center;
+    margin-bottom: 20px;
 }
 #decor {
     width: 1000px;
     text-align: left;
     margin: auto;
+    padding-bottom: 20px;
 
     text-indent: 1.5em; /* Отступ первой строки */
     text-align: justify; /* Выравнивание по ширине */
