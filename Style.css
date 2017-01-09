@@ -1,6 +1,14 @@
-
+body {
+    background: #efefef url(images/frr.png); margin: 0;
+    padding: 0;
+    font: 16px/24px Arial, Tahoma, sans-serif; color:#272727;
+}
 /*Структура сайта*/
-div.mid {width: 1000px; margin: 0 auto;}
+div.mid {
+    width: 1000px; 
+    margin: 0 auto;
+    height: 150px;
+}
 div.header {
     background-color: aqua;
 
@@ -12,21 +20,18 @@ footer>div {
     background-color: chartreuse;
     height: 150px;
 }
-div
 /*Шапка сайта*/
-#SkypeButton {
-    float: right;
-    width: 24px;
-    height: 24px;
+.decorationplus {
+    height: 150px;
 }
-#vk {
-    width: 24px;
-    height: 24px;
-    float: right;
+.order_now {
+    width: 100px;
 }
+
 div.topmenu {
     float: right;
-
+    height: 30px;
+    text-align: center;
 }
 div.topmenu  a{
     margin: 0 0 0 10px; color: #1683a3;
@@ -74,14 +79,27 @@ div.gallery {
     background-color: yellow;
     height: 150px;
 }
+.contact {
+    width: 40px;
+    height: 150px;
+}
+#SkypeButton {
+    width: 24px;
+    height: 24px;
+}
+
+#vk {
+    width: 24px;
+    height: 24px;
+
+}
+#Twitter {
+    width: 24px;
+    height: 24px;
+}
 /*Адаптивный дизайн*/
 @media screen and (max-width: 999px) {
 	div.mid {width: 95%; }
 	div.block,div.block:nth-of-type(even) {width: 75%;  float: left; }
 
-}
-
-@media screen and (max-width: 601px){
-	div.header {text-align: center; background-position: center -150px;}
-	div.topmenu, img, div.block{float:none;}
 }
