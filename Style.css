@@ -1,9 +1,38 @@
-header>div {
+
+/*Структура сайта*/
+div.header {
     background-color: aqua;
-    height: 150px;
+
+    
 }
 main>div {
 
+}
+footer>div {
+    background-color: chartreuse;
+    height: 150px;
+}
+/*Шапка сайта*/
+#SkypeButton_Call_x-dito_1 {
+    float: right;
+}
+div.topmenu {
+    float: right;
+
+    margin-right: 10%;
+
+}
+div.topmenu  a{
+    margin: 0 0 0 10px; color: #1683a3;
+    text-decoration: none;
+}
+div.topmenu a:hover{
+    color: #fff;
+ /*Псевдокласс, цвет наводящего меню*/
+
+}
+div>img {
+    margin-left: 10%;
 }
 #infodecor {
     background-color: burlywood;
@@ -38,9 +67,5 @@ div.wrapper {
 }
 div.gallery {
     background-color: yellow;
-    height: 150px;
-}
-footer>div {
-    background-color: chartreuse;
     height: 150px;
 }
