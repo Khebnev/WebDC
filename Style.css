@@ -63,6 +63,42 @@ div.topmenu a:hover{
     width: 50%;
 }
 
+/*Услуги*/
+div>h2 {
+    width: 1000px;
+    text-align: center;
+    margin: auto;
+}
+.WrapperTable {
+    width: 100%;
+}
+/*НАЧАЛО TABLE*/
+table {
+
+    margin: auto; 
+}
+tr {
+    display: table-row;
+    vertical-align: inherit;
+    border-color: inherit;
+}
+tbody tr td {
+    border-bottom: 1px solid #e5e5e5;
+    padding: 10px;
+}
+tbody {
+    display: table-row-group;
+    vertical-align: middle;
+    border-color: inherit;
+}
+div {
+    display: block;
+}
+
+.wk-gallery-wall.margin {
+    margin: 0 -15px -15px 0;
+}
+/*КОНЕЦ TABLE*/
 div.gallery {
     background-color: yellow;
     height: 150px;
