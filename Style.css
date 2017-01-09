@@ -1,9 +1,9 @@
 
 /*Структура сайта*/
+div.mid {width: 1000px; margin: 0 auto;}
 div.header {
     background-color: aqua;
 
-    
 }
 main>div {
 
@@ -12,9 +12,12 @@ footer>div {
     background-color: chartreuse;
     height: 150px;
 }
+div
 /*Шапка сайта*/
-#SkypeButton_Call_x-dito_1 {
+#SkypeButton {
     float: right;
+    width: 24px;
+    height: 24px;
 }
 #vk {
     width: 24px;
@@ -23,8 +26,6 @@ footer>div {
 }
 div.topmenu {
     float: right;
-    width: 20%;
-    margin-right: 10%;
 
 }
 div.topmenu  a{
@@ -37,9 +38,7 @@ div.topmenu a:hover{
 
 }
 
-div>img {
-    margin-left: 10%;
-}
+
 #infodecor {
     background-color: burlywood;
     height: 150px;
@@ -74,4 +73,15 @@ div.wrapper {
 div.gallery {
     background-color: yellow;
     height: 150px;
+}
+/*Адаптивный дизайн*/
+@media screen and (max-width: 999px) {
+	div.mid {width: 95%; }
+	div.block,div.block:nth-of-type(even) {width: 75%;  float: left; }
+
+}
+
+@media screen and (max-width: 601px){
+	div.header {text-align: center; background-position: center -150px;}
+	div.topmenu, img, div.block{float:none;}
 }
