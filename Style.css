@@ -16,9 +16,14 @@ footer>div {
 #SkypeButton_Call_x-dito_1 {
     float: right;
 }
+#vk {
+    width: 24px;
+    height: 24px;
+    float: right;
+}
 div.topmenu {
     float: right;
-
+    width: 20%;
     margin-right: 10%;
 
 }
@@ -31,6 +36,7 @@ div.topmenu a:hover{
  /*Псевдокласс, цвет наводящего меню*/
 
 }
+
 div>img {
     margin-left: 10%;
 }
